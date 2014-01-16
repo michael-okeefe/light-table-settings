@@ -20,10 +20,10 @@
               "alt-shift-w" [:editor.watch.unwatch]
               "alt-shift-l" [:paredit.shrink.left]
               "alt-shift-h" [:paredit.shrink.right]
-              "ctrl-d" [:editor.page-down]
-              "ctrl-u" [:editor.page-up]
-              "ctrl-r" [:lt.plugins.reflow/reflow]
               "alt-l" [:paredit.grow.right]
               "alt-h" [:paredit.grow.left]
               "alt-j" [:paredit.select.parent]
-              "alt-k" [:paredit.select.clear]}}}
+              "alt-k" [:paredit.select.clear]
+              "ctrl-d" [:editor.page-down]
+              "ctrl-u" [:editor.page-up]
+              "ctrl-r" [:lt.plugins.reflow/reflow]}}}
