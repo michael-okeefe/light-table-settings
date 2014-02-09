@@ -13,12 +13,16 @@
 {:+ {:app {"ctrl-l" [:tabset.next]
            "ctrl-h" [:tabset.prev]
            "ctrl-shift-w" [:workspace.show]
-           "ctrl-shift-c" [:toggle-console]}
+           "ctrl-shift-c" [:toggle-console]
+           "ctrl-shift-a" [:workspace.add-folder]}
 
      :editor {"alt-w" [:editor.watch.watch-selection]
               "alt-shift-w" [:editor.watch.unwatch]
               "alt-shift-l" [:paredit.shrink.left]
               "alt-shift-h" [:paredit.shrink.right]
+              "ctrl-d" [:editor.page-down]
+              "ctrl-u" [:editor.page-up]
+              "ctrl-r" [:lt.plugins.reflow/reflow]
               "alt-l" [:paredit.grow.right]
               "alt-h" [:paredit.grow.left]
               "alt-j" [:paredit.select.parent]
