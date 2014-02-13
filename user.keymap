@@ -15,7 +15,6 @@
            "ctrl-shift-w" [:workspace.show]
            "ctrl-shift-c" [:toggle-console]
            "ctrl-shift-a" [:workspace.add-folder]}
-
      :editor {"alt-w" [:editor.watch.watch-selection]
               "alt-shift-w" [:editor.watch.unwatch]
               "alt-shift-l" [:paredit.shrink.left]

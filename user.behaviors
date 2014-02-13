@@ -28,7 +28,6 @@
 
      ;; Here we can add behaviors to just clojure editors
      :editor.clojure [(:lt.objs.langs.clj/print-length 1000)
-                      :lt.objs.editor/scroll-past-end
                       :lt.plugins.rainbow/rainbow-parens]}
 
  ;; You can use the subtract key to remove behavior that may get added by
