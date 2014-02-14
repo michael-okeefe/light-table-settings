@@ -25,4 +25,4 @@
               "alt-k" [:paredit.select.clear]
               "ctrl-d" [:editor.page-down]
               "ctrl-u" [:editor.page-up]
-              "ctrl-r" [:lt.plugins.reflow/reflow]}}}
+              "ctrl-shift-r" [:lt.plugins.reflow/reflow]}}}
