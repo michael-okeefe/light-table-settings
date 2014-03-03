@@ -23,6 +23,6 @@
               "alt-h" [:paredit.grow.left]
               "alt-j" [:paredit.select.parent]
               "alt-k" [:paredit.select.clear]
+              "ctrl-shift-r" [:lt.plugins.reflow/reflow]
               "ctrl-d" [:editor.page-down]
-              "ctrl-u" [:editor.page-up]
-              "ctrl-r" [:lt.plugins.reflow/reflow]}}}
+              "ctrl-u" [:editor.page-up]}}}
