@@ -15,14 +15,14 @@
            "ctrl-shift-w" [:workspace.show]
            "ctrl-shift-c" [:toggle-console]
            "ctrl-shift-a" [:workspace.add-folder]}
+     :editor.keys.vim {"ctrl-l" [:paredit.grow.right]
+                       "ctrl-h" [:paredit.grow.left]
+                       "ctrl-k" [:paredit.select.parent]
+                       "ctrl-j" [:paredit.select.clear]
+                       "ctrl-d" [:editor.page-down]
+                       "ctrl-u" [:editor.page-up]
+                       "ctrl-shift-l" [:paredit.shrink.left]
+                       "ctrl-shift-h" [:paredit.shrink.right]}
      :editor {"alt-w" [:editor.watch.watch-selection]
               "alt-shift-w" [:editor.watch.unwatch]
-              "alt-shift-l" [:paredit.shrink.left]
-              "alt-shift-h" [:paredit.shrink.right]
-              "alt-l" [:paredit.grow.right]
-              "alt-h" [:paredit.grow.left]
-              "alt-j" [:paredit.select.parent]
-              "alt-k" [:paredit.select.clear]
-              "ctrl-d" [:editor.page-down]
-              "ctrl-u" [:editor.page-up]
               "ctrl-shift-r" [:lt.plugins.reflow/reflow]}}}
