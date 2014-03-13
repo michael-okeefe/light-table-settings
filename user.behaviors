@@ -22,6 +22,7 @@
      ;; The editor tag is applied to all editors
      :editor [:lt.objs.editor/wrap
               :lt.objs.editor/line-numbers
+              :lt.objs.editor/highlight-current-line
               (:lt.objs.style/set-theme "default")
               :lt.plugins.vim/activate-vim
               :lt.objs.editor/scroll-past-end]
