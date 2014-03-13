@@ -10,8 +10,8 @@
 ;; of all the commands you can execute, start typing a word related to the thing you
 ;; want to do in between the square brackets (e.g. type "editor").
 
-{:+ {:app {"ctrl-l" [:tabset.next]
-           "ctrl-h" [:tabset.prev]
+{:+ {:app {"ctrl-shift-n" [:tabset.next]
+           "ctrl-shift-p" [:tabset.prev]
            "ctrl-shift-w" [:workspace.show]
            "ctrl-shift-c" [:toggle-console]
            "ctrl-shift-a" [:workspace.add-folder]}
@@ -25,4 +25,5 @@
                        "ctrl-shift-h" [:paredit.shrink.right]}
      :editor {"alt-w" [:editor.watch.watch-selection]
               "alt-shift-w" [:editor.watch.unwatch]
-              "ctrl-shift-r" [:lt.plugins.reflow/reflow]}}}
+              "ctrl-shift-r" [:lt.plugins.reflow/reflow]}}
+ :- {:app {"pmeta-shift-n" [:window.new]}}}
