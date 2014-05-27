@@ -21,6 +21,11 @@
                        "ctrl-j" [:paredit.select.clear]
                        "ctrl-d" [:editor.page-down]
                        "ctrl-u" [:editor.page-up]
+                       "ctrl-shift-u" [:paredit.unwrap.parent]
+                       "ctrl-1" [:paredit-plus.wrap-round]
+                       "ctrl-2" [:paredit-plus.wrap-square]
+                       "ctrl-3" [:paredit-plus.wrap-curly]
+                       "ctrl-4" [:paredit-plus.wrap-quote]
                        "ctrl-shift-l" [:paredit.shrink.left]
                        "ctrl-shift-h" [:paredit.shrink.right]}
      :editor {"alt-w" [:editor.watch.watch-selection]

@@ -12,23 +12,24 @@
 {:+ {
      ;; The app tag is kind of like global scope. You assign behaviors that affect
      ;; all of Light Table here
-     :app [(:lt.objs.style/set-skin "dark")
-           ;(:lt.objs.style/set-skin "light")
-           :lt.plugins.auto-complete/auto-show-on-input
-           (:lt.objs.style/font-settings "Inconsolata" 12 1.2)
-           ;(:lt.objs.style/font-settings "Inconsolata" 24 1.2)
-           ]
+     :app [:lt.plugins.auto-complete/auto-show-on-input
+           :lt.objs.editor/scroll-past-end
+           (:lt.objs.style/set-skin "dark")
+           (:lt.objs.style/set-theme "ibdknox")
+           (:lt.objs.style/font-settings "Inconsolata" 12 1.2)]
 
      ;; The editor tag is applied to all editors
      :editor [:lt.objs.editor/wrap
               :lt.objs.editor/line-numbers
               :lt.objs.editor/highlight-current-line
-              (:lt.objs.style/set-theme "default")
+              (:lt.objs.style/set-skin "dark")
+              (:lt.objs.style/set-theme "ibdknox")
               :lt.plugins.vim/activate-vim
               :lt.objs.editor/scroll-past-end]
 
      ;; Here we can add behaviors to just clojure editors
      :editor.clojure [(:lt.objs.langs.clj/print-length 1000)
+                      :lt.objs.editor/scroll-past-end
                       :lt.plugins.rainbow/rainbow-parens]}
 
  ;; You can use the subtract key to remove behavior that may get added by
