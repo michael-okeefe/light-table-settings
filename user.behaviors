@@ -25,6 +25,7 @@
               :lt.objs.editor/highlight-current-line
               (:lt.objs.style/set-theme "default")
               :lt.plugins.vim/activate-vim
+              (:lt.plugins.reflow/set-width 79)
               :lt.objs.editor/scroll-past-end]
 
      ;; Here we can add behaviors to just clojure editors
