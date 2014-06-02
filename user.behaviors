@@ -13,9 +13,7 @@
      ;; The app tag is kind of like global scope. You assign behaviors that affect
      ;; all of Light Table here
      :app [:lt.plugins.auto-complete/auto-show-on-input
-           :lt.objs.editor/scroll-past-end
            (:lt.objs.style/set-skin "dark")
-           (:lt.objs.style/set-theme "ibdknox")
            (:lt.objs.style/font-settings "Inconsolata" 12 1.2)]
 
      ;; The editor tag is applied to all editors
