@@ -29,6 +29,10 @@
                        "ctrl-shift-l" [:paredit.shrink.left]
                        "ctrl-shift-h" [:paredit.shrink.right]}
      :editor {"alt-w" [:editor.watch.watch-selection]
+              "ctrl-shift-k" [:editor.sublime.selectLinesUpward]
+              "ctrl-shift-j" [:editor.sublime.selectLinesDownward]
               "alt-shift-w" [:editor.watch.unwatch]
-              "ctrl-shift-r" [:lt.plugins.reflow/reflow]}}
- :- {:app {"pmeta-shift-n" [:window.new]}}}
+              "ctrl-shift-r" [:lt.plugins.reflow/reflow]}
+     :editor.keys.normal {"ctrl-n" [:auto-complete]}}
+ :- {:app {"pmeta-shift-n" [:window.new]}
+     :editor.keys.normal {"tab" [:auto-complete]}}}
